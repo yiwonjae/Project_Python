@@ -1,10 +1,10 @@
-import turtle as t1
+ï»¿import turtle as t1
 
-t1.shape("turtle")   # shape¸¦ Shape·Î ÇÏ¸é ¹®¹ı ¿À·ù°¡ ¹ß»ıÇÑ´Ù. 
-                    # ÇØ´ç ºÎºĞÀº ÁÖÀÇÇØ¾ßÇÑ´Ù. auto indent´Â Shape¸¦ ±ÇÇß´Ù.
+t1.shape("turtle")  # shapeë¥¼ Shapeë¡œ í•˜ë©´ ë¬¸ë²• ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤. 
+                    # í•´ë‹¹ ë¶€ë¶„ì€ ì£¼ì˜í•´ì•¼í•œë‹¤. auto indentëŠ” Shapeë¥¼ ê¶Œí–ˆë‹¤.
 
 
-t1.forward(50)       # °ÅºÏÀÌ¸¦ ÀÌµ¿ÇÑ´Ù.
+t1.forward(50)       # ê±°ë¶ì´ë¥¼ ì´ë™í•œë‹¤.
 t1.left(120)
 
 t1.forward(50)
@@ -14,7 +14,7 @@ t1.left(120)
 
 
 
-t1.right(90)         # ¹æÇâ ¼±È¸
+t1.right(90)         # ë°©í–¥ ì„ íšŒ
 
 
 
