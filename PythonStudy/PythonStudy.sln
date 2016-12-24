@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{38D281
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TensorFlow", "TensorFlow\TensorFlow.pyproj", "{BAD24D61-3ACA-4571-9CF2-A3EBAFD3831F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6A7C36A0-FB8F-4719-A3EE-E42483B5666F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A7C36A0-FB8F-4719-A3EE-E42483B5666F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD24D61-3ACA-4571-9CF2-A3EBAFD3831F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD24D61-3ACA-4571-9CF2-A3EBAFD3831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

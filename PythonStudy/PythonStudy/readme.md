@@ -21,7 +21,9 @@
 PTVS(Python Tool Visual Studio)에서 encoding 문제가 발생하는 경우가 있다.
 해당 문제는 다음과 같이 해결이 가능하다.
 
-### 해결 방법
+#### 해결 방법
  1. Solution Explorer - 문제파일 선택 - 오른쪽 마우스 - Open with 를 누른다. 
  2. Python Editor with Encoding 을 누른다.
  3. Unicode (UTF-8 with signature) - codepage 65001 을 누른다.
+
+---
