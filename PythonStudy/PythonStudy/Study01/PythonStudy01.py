@@ -23,3 +23,5 @@ t1.right(90)         # 방향 선회
 
 print("hello")
 print("hello")
+
+
