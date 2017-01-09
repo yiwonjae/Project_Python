@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0199b6c-f9de-46b0-8b35-e6a5fc92cf80</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Study01\PythonStudy02.py</StartupFile>
+    <StartupFile>Study02\module1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Study01\PythonStudy02.py" />
+    <Compile Include="Study02\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MDResource\Book01.PNG" />
@@ -35,6 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MDResource\" />
+    <Folder Include="Study02\" />
     <Folder Include="Study01\" />
   </ItemGroup>
   <PropertyGroup>
