@@ -15,27 +15,29 @@ print(list1[0:3+1]) # [1, 'hi there', 10, 10.1]
 
 
 #List - append
+list1 =[1,"hi there", 10, 10.1]
 
 list1.append("Append01")
 print(list1)                # [1, 'hi there', 10, 10.1, 'Append01']
 
 
 #List - insert
+list1 =[1,"hi there", 10, 10.1]
 
 list1.insert(1,"Insert01")
 list1.insert(2,"Insert02")
 list1.insert(3,"Insert03")
 list1.insert(4,"Insert04")
-print(list1)                # [1, 'Insert01', 'Insert02', 'Insert03', 'Insert04', 'hi there', 10, 10.1, 'Append01']
+print(list1)                # [1, 'Insert01', 'Insert02', 'Insert03', 'Insert04', 'hi there', 10, 10.1]
 
 #List - del, remove
 list1 =[1,"hi there", 10, 10.1]
-print(list1)                # [1, 'Insert01', 'Insert02', 'Insert03', 'Insert04', 'hi there', 10, 10.1, 'Append01']
+print(list1)                # [1, 'Insert01', 'Insert02', 'Insert03', 'Insert04', 'hi there', 10, 10.1]
 del list1[2]                
-print(list1)                # [1, 'Insert01', 'Insert03', 'Insert04', 'hi there', 10, 10.1, 'Append01']
+print(list1)                # [1, 'Insert01', 'Insert03', 'Insert04', 'hi there', 10, 10.1]
 list1.append("AppendXX")
 list1.append("AppendXX")
-print(list1)                # [1, 'Insert01', 'Insert03', 'Insert04', 'hi there', 10, 10.1, 'Append01', 'AppendXX', 'AppendXX']
+print(list1)                # [1, 'Insert01', 'Insert03', 'Insert04', 'hi there', 10, 10.1, 'AppendXX', 'AppendXX']
 list1.remove("AppendXX")
 print(list1)                # [1, 'hi there', 10.1, 'AppendXX']
 
@@ -111,5 +113,5 @@ num_alpha[0:3+1]          # ['a1', 'f2', ['2e', '2d', '1b']]
 num_alpha1 = ['a1','f2',['2e','2d','1b']]
 num_alpha2 = ['a1','f2','2e','2d','1b']
 
-len(num_alpha1)
-len(num_alpha2)
+len(num_alpha1) # 3
+len(num_alpha2) # 5
